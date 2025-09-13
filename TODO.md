@@ -1,3 +1,0 @@
-- [x] Update CORS configuration in index.js to allow requests from https://jobportalashvani.netlify.app/
-- [x] Test CORS by running the server and verifying with curl requests to a few endpoints (e.g., /api/v1/user, /api/v1/job) using the Origin header
-- [x] Ensure no CORS errors for the deployed frontend

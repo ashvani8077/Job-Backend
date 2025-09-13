@@ -20,8 +20,8 @@ app.use(cookieParser());
 // ✅ CORS config for localhost and deployed frontend
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://jobportalashvani.netlify.app"],
-    credentials: true,
+    origin: "https://jobportalashvani.netlify.app",
+    credentials: true, // allow cookies
   })
 );
 
