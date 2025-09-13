@@ -17,10 +17,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
-// ✅ CORS config for localhost only
+// ✅ CORS config for localhost and deployed frontend
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: ["http://localhost:5173", "https://jobportalashvani.netlify.app"],
     credentials: true,
   })
 );
